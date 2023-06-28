@@ -1,0 +1,12 @@
+{
+    "name": "IndexedDB",
+    "description": "Read and write to IndexedDB",
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "permissions": ["storage", "unlimitedStorage", "background", "tabs"],
+    "action": {
+        "default_title": "IndexedDB",
+        "default_icon": "fav.png",
+        "default_popup": "index.html"
+    }
+}
