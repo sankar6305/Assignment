@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-mongoose.connect('mongodb+srv://Sankar:Desamsetti1&%40@cluster0.yju1e0z.mongodb.net/API', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://<user name>:<password of your>@cluster0.yju1e0z.mongodb.net/API', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('Connected to MongoDB Atlas');
     })
