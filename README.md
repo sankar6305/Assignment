@@ -1,6 +1,5 @@
-# Assignment
+# Data Fetching Optimization
 
-MYM Assignment
 
 Step 1 : 
 start the node js server by using npm start command
